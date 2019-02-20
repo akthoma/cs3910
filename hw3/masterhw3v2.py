@@ -15,8 +15,8 @@ if f not in filenames:
     sr = input('How many lines need to be skipped in the header? ')
     sf = input('How many lines need to be skipped in the footer? ')
     na = input('How are null values represented in this dataset? ')
-    ic = input('Enter which column(s) will be used for the index: ')
-    h = input('Enter which column(s) will be used for the header: ')
+    ic = [int(x) for x in input('Enter which column(s) will be used for the index: ').split()]
+    h = [int(x) for x in input('Enter which column(s) will be used for the header: ').split()]
 elif f == 'state-divorce-rates-90-95-99-17.xlsx':
             sr = 5
             na = '---'
