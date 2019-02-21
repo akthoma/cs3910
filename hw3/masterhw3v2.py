@@ -36,6 +36,7 @@ print('This program supports any of the following file names:\nh08b.xls\n'
       'state-divorce-rates-90-95-99-17.xlsx\nstate-marriage-rates-90-95-99-17.xlsx\n'
       'tab-a-1.xls\nUnemployment rate by state 2000-2017.csv\nCrimeTrendsInOneVar.csv\n'
       'Custom files may be supported by this program.')
+
 filenames = ['h08b.xls', 'Health Insurance Coverage Type by Family Income and Age 2008-2017.csv',
              'state-divorce-rates-90-95-99-17.xlsx', 'state-marriage-rates-90-95-99-17.xlsx',
              'tab-a-1.xls', 'Unemployment rate by state 2000-2017.csv']
@@ -103,7 +104,9 @@ else:
     exit()
 
 data.dropna(how='all', inplace=True)
-data = data.stack(h)
+
+if f != 'Unemployment rate by state 2000-2017.csv':
+    data = data.stack(h)
 
 if f == 'state-divorce-rates-90-95-99-17.xlsx':
     data.index.names = ['State', 'Year']
