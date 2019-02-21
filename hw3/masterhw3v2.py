@@ -72,7 +72,7 @@ elif f == 'Unemployment rate by state 2000-2017.csv':
 elif f == 'tab-a-1.xls':
     sr = 4
     na = '(NA)'
-    ic = 1
+    ic = 0
     h = [0, 1, 2]
     sf = 12
 elif f == 'h08b.xls':
@@ -81,11 +81,12 @@ elif f == 'h08b.xls':
     sf = 1
     ic = 0
     na = 'null'
-# elif f == 'Health Insurance Coverage Type by Family Income and Age 2008-2017.csv':
-        #    sr = 5
-        #    na = "---"
-        #    sf = 7
-        #    index_col = 0
+elif f == 'Health Insurance Coverage Type by Family Income and Age 2008-2017.csv':
+    sr = 6
+    na = 'N/A'
+    sf = 0
+    ic = 0
+    h = 0
 elif f == 'CrimeTrendsInOneVar.csv':
     merger(f)
     sr = 4
@@ -104,16 +105,18 @@ else:
     exit()
 
 data.dropna(how='all', inplace=True)
+count_row = data.shape[0]
 
-if f != 'Unemployment rate by state 2000-2017.csv':
+if f != 'Unemployment rate by state 2000-2017.csv' and \
+        f != 'Health Insurance Coverage Type by Family Income and Age 2008-2017.csv':
     data = data.stack(h)
 
 if f == 'state-divorce-rates-90-95-99-17.xlsx':
     data.index.names = ['State', 'Year']
-    data.name = "Divorces Per 1000"
+    data.name = 'Divorces Per 1000'
 elif f == 'state-marriage-rates-90-95-99-17.xlsx':
     data.index.names = ['State', 'Year']
-    data.name = "Marriages Per 1000"
+    data.name = 'Marriages Per 1000'
 elif f == 'tab-a-1.xls':
     data.rename(columns={data.columns[0]: 'Years',
                          data.columns[1]: 'Type of residence in the United States',
@@ -127,11 +130,6 @@ elif f == 'h08b.xls':
                          'level_2': 'Income',
                          0: 'USD$'},
                 inplace=True)
-# elif f == 'Health Insurance Coverage Type by Family Income and Age 2008-2017.csv':
-        #    sr = 5
-        #    na = "---"
-        #    sf = 7
-        #    index_col = 0
 # elif f == 'CrimeOneYearofData.csv':
         #    sr = 5
         #    na = "---"
@@ -140,8 +138,13 @@ elif f == 'h08b.xls':
 
 data = data.reset_index()
 
-data.to_excel(excel_writer='data/cleaned/cleaned_{0}.xls'.format(f),
-              sheet_name='marriage rate',
-              na_rep='null',
-              index=False)
+if count_row < 65536:
+    data.to_excel(excel_writer='data/cleaned/cleaned_{0}.xls'.format(f),
+                  sheet_name='cleaned_{0}'.format(f),
+                  na_rep='null',
+                  index=False)
+else:
+    data.to_csv(path_or_buf='data/cleaned/cleaned_{0}.csv'.format(f),
+                na_rep='null',
+                index=False)
 
