@@ -12,10 +12,10 @@ h = 'CrimeTrendsInOneVar.csv'
 def csv(f, sr, sf, na, ic, head):
     df = pd.read_csv('data/{0}'.format(f),
                      skiprows=sr,
+                     skipfooter=sf,
                      header=head,
                      na_values=na,
-                     skipfooter=sf,
-                     index_col=ic
+                     index_col=ic,
                      )
     return df
 
@@ -31,12 +31,12 @@ def excel(f, sr, sf, na, ic, head):
     return df
 
 
-def merger(f):
-    a = pd.read_csv('data/{0}'.format(f))
-    b = pd.read_csv('data/{0} (1)'.format(f))
-    b = b.dropna(axis=1)
-    merged = a.merge(b, on='title')
-    merged.to_csv('data/{0}.csv'.format(f), index=False)
+def merger(f, sr):
+    y = pd.read_csv('data/{0}'.format(f), skiprows=sr, error_bad_lines=False)
+    z = pd.read_csv('data/{0} (1).csv'.format(f.split('.')[0]), skiprows=sr, error_bad_lines=False)
+    merged = y.append(z, sort=True)
+    merged.to_csv('data/merged_{0}'.format(f))
+    return 'merged_{0}'.format(f)
 
 
 def cleaner(f, filenames):
@@ -79,12 +79,13 @@ def cleaner(f, filenames):
         head = [0, 1, 2]
         sf = 12
     elif f == h:
-        merger(f)
-        sr = 4
+        sr = 3
         head = 0
-        sf = 1
+        sf = 2
         ic = 0
         na = 'null'
+        f = merger(f, sr)
+        sr = 0
 
     if '.csv' in f:
         data = csv(f, sr, sf, na, ic, head)
@@ -92,7 +93,7 @@ def cleaner(f, filenames):
         data = excel(f, sr, sf, na, ic, head)
     else:
         print('Data in unsupported format. Please convert file to .csv or .xls/.xlsx'
-              'before proceeding')
+              ' before proceeding')
         exit()
 
     data.dropna(how='all', inplace=True)
@@ -107,7 +108,6 @@ def cleaner(f, filenames):
     elif f == d:
         data.index.names = ['State', 'Year']
         data.name = 'Marriages Per 1000'
-    # elif f == 'CrimeOneYearofData.csv':
 
     data = data.reset_index()
 
@@ -167,6 +167,6 @@ def main():
 
 
 print('This program supports any of the following file names:\n', a, '\n',
-       b, '\n', c, '\n', d, '\n', e, '\n', g, '\n', h, '\n Custom files may'
-       ' be supported by this program.')
+      b, '\n', c, '\n', d, '\n', e, '\n', g, '\n', h, '\n Custom files may'
+      ' be supported by this program.')
 main()
