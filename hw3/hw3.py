@@ -2,25 +2,25 @@ import pandas as pd
 
 
 def csv(f, sr, sf, na, ic, h):
-    d = pd.read_csv('data/{0}'.format(f),
-                    skiprows=sr,
-                    header=h,
-                    na_values=na,
-                    skipfooter=sf,
-                    index_col=ic
-                    )
-    return d
+    df = pd.read_csv('data/{0}'.format(f),
+                     skiprows=sr,
+                     header=h,
+                     na_values=na,
+                     skipfooter=sf,
+                     index_col=ic
+                     )
+    return df
 
 
 def excel(f, sr, sf, na, ic, h):
-    d = pd.read_excel('data/{0}'.format(f),
-                      skiprows=sr,
-                      header=h,
-                      na_values=na,
-                      skipfooter=sf,
-                      index_col=ic
-                      )
-    return d
+    df = pd.read_excel('data/{0}'.format(f),
+                       skiprows=sr,
+                       header=h,
+                       na_values=na,
+                       skipfooter=sf,
+                       index_col=ic
+                       )
+    return df
 
 
 def merger(f):
@@ -109,18 +109,23 @@ count_row = data.shape[0]
 if f != b and f != g:
     data = data.stack(h)
 
+
+if f == c:
+    data.index.names = ['State', 'Year']
+    data.name = 'Divorces Per 1000'
+elif f == d:
+    data.index.names = ['State', 'Year']
+    data.name = 'Marriages Per 1000'
+# elif f == 'CrimeOneYearofData.csv':
+
+data = data.reset_index()
+
 if f == a:
     data.rename(columns={'level_0': 'State',
                          data.columns[1]: 'Year',
                          'level_2': 'Income',
                          0: 'USD$'},
                 inplace=True)
-elif f == c:
-    data.index.names = ['State', 'Year']
-    data.name = 'Divorces Per 1000'
-elif f == d:
-    data.index.names = ['State', 'Year']
-    data.name = 'Marriages Per 1000'
 elif f == e:
     data.rename(columns={data.columns[0]: 'Years',
                          data.columns[1]: 'Type of residence in the United States',
@@ -128,9 +133,6 @@ elif f == e:
                          data.columns[3]: 'Different or Same State',
                          data.columns[4]: 'total',
                          }, inplace=True)
-# elif f == 'CrimeOneYearofData.csv':
-
-data = data.reset_index()
 
 if count_row < 65536:
     data.to_excel(excel_writer='data/cleaned/cleaned_{0}.xls'.format(f),
