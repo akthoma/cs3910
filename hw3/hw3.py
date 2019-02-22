@@ -103,13 +103,6 @@ def cleaner(f, filenames):
     if f != b and f != g:
         data = data.stack(head)
 
-    if f == c:
-        data.index.names = ['State', 'Year']
-        data.name = 'Divorces Per 1000'
-    elif f == d:
-        data.index.names = ['State', 'Year']
-        data.name = 'Marriages Per 1000'
-
     data = data.reset_index()
 
     if f == a:
@@ -121,14 +114,30 @@ def cleaner(f, filenames):
                     inplace=True)
         for i, row in data.iterrows():
             data.at[i, 'Year'] = str(data.at[i, 'Year']).split('(')[0]
-
+    elif f == c:
+        data.rename(columns={data.columns[0]: 'State',
+                             data.columns[1]: 'Year',
+                             data.columns[2]: 'Divorces per 1000'},
+                    inplace=True)
+    elif f == d:
+        data.rename(columns={data.columns[0]: 'State',
+                             data.columns[1]: 'Year',
+                             data.columns[2]: 'Divorces per 1000'},
+                    inplace=True)
     elif f == e:
         data.rename(columns={data.columns[0]: 'Years',
                              data.columns[1]: 'Type of residence in the United States',
                              data.columns[2]: 'Different or Same County',
                              data.columns[3]: 'Different or Same State',
-                             data.columns[4]: 'total',
-                             }, inplace=True)
+                             data.columns[4]: 'Movers from Abroad'},
+                    inplace=True)
+        for i, row in data.iterrows():
+            if str(data.at[i, 'Different or Same County']).startswith('Unnamed'):
+                data.at[i, 'Different or Same County'] = ' '
+            if str(data.at[i, 'Different or Same State']).startswith('Unnamed'):
+                data.at[i, 'Different or Same State'] = ' '
+            if str(data.at[i, 'Movers from Abroad']) == 'null':
+                data.at[i, 'Movers from Abroad'] = ' '
 
     if count_row < 65536:
         data.to_excel(excel_writer='data/cleaned/cleaned_{0}.xls'.format(f),
