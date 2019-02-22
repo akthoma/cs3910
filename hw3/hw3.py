@@ -7,6 +7,7 @@ d = 'state-marriage-rates-90-95-99-17.xlsx'
 e = 'tab-a-1.xls'
 g = 'Unemployment rate by state 2000-2017.csv'
 h = 'CrimeTrendsInOneVar.csv'
+h2 = 'merged_CrimeTrendsInOneVar.csv'
 
 
 def csv(f, sr, sf, na, ic, head):
@@ -32,9 +33,11 @@ def excel(f, sr, sf, na, ic, head):
 
 
 def merger(f, sr):
-    y = pd.read_csv('data/{0}'.format(f), skiprows=sr, header=[0, 1])
+    y = pd.read_csv('data/{0}'.format(f), skiprows=sr)
     z = pd.read_csv('data/{0} (1).csv'.format(f.split('.')[0]),
-                    skiprows=sr, skipfooter=2, header=[0, 1], engine='python')
+                    skiprows=sr, skipfooter=2, engine='python')
+    y.insert(loc=0, column='Crime Type', value='Violent')
+    z.insert(loc=0, column='Crime Type', value='Property')
     merged = y.append(z, sort=False)
     merged.to_csv('data/merged_{0}'.format(f), index=False)
     return 'merged_{0}'.format(f)
@@ -80,10 +83,10 @@ def cleaner(f, filenames):
         head = [0, 1, 2]
         sf = 12
     elif f == h:
-        sr = 3
-        head = [0, 1, 2]
+        sr = 4
+        head = 0
         sf = 0
-        ic = 0
+        ic = [0, 1]
         na = 'null'
         f = merger(f, sr)
         sr = 0
@@ -138,8 +141,11 @@ def cleaner(f, filenames):
                 data.at[i, 'Different or Same State'] = ' '
             if str(data.at[i, 'Movers from Abroad']) == 'null':
                 data.at[i, 'Movers from Abroad'] = ' '
-    elif f == 'merged_CrimeTrendsInOneVar.csv':
-        data.drop(columns={data.columns[0]})
+    elif f == h2:
+        data.rename(columns={data.columns[2]: 'State',
+                             data.columns[3]: 'Estimated Total'},
+                    inplace=True)
+        data = data[['Year', 'State', 'Crime Type', 'Estimated Total']]
 
     if count_row < 65536:
         data.to_excel(excel_writer='data/cleaned/cleaned_{0}.xls'.format(f.split('.')[0]),
