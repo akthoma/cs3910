@@ -32,11 +32,11 @@ def excel(f, sr, sf, na, ic, head):
 
 
 def merger(f, sr):
-    y = pd.read_csv('data/{0}'.format(f), skiprows=sr, error_bad_lines=False)
-    z = pd.read_csv('data/{0} (1).csv'.format(f.split('.')[0]), skiprows=sr,
-                    skipfooter=2, error_bad_lines=False, engine='python')
-    merged = y.append(z, sort=True)
-    merged.to_csv('data/merged_{0}'.format(f), index_label=False)
+    y = pd.read_csv('data/{0}'.format(f), skiprows=sr, header=[0, 1])
+    z = pd.read_csv('data/{0} (1).csv'.format(f.split('.')[0]),
+                    skiprows=sr, skipfooter=2, header=[0, 1], engine='python')
+    merged = y.append(z, sort=False)
+    merged.to_csv('data/merged_{0}'.format(f), index=False)
     return 'merged_{0}'.format(f)
 
 
@@ -81,7 +81,7 @@ def cleaner(f, filenames):
         sf = 12
     elif f == h:
         sr = 3
-        head = 0
+        head = [0, 1, 2]
         sf = 0
         ic = 0
         na = 'null'
@@ -138,15 +138,17 @@ def cleaner(f, filenames):
                 data.at[i, 'Different or Same State'] = ' '
             if str(data.at[i, 'Movers from Abroad']) == 'null':
                 data.at[i, 'Movers from Abroad'] = ' '
+    elif f == 'merged_CrimeTrendsInOneVar.csv':
+        data.drop(columns={data.columns[0]})
 
     if count_row < 65536:
-        data.to_excel(excel_writer='data/cleaned/cleaned_{0}.xls'.format(f),
+        data.to_excel(excel_writer='data/cleaned/cleaned_{0}.xls'.format(f.split('.')[0]),
                       sheet_name='cleaned',
                       na_rep='null',
                       index=False)
         print('Cleaned file successfully saved in .xls format.')
     else:
-        data.to_csv(path_or_buf='data/cleaned/cleaned_{0}.csv'.format(f),
+        data.to_csv(path_or_buf='data/cleaned/cleaned_{0}.csv'.format(f.split('.')[0]),
                     na_rep='null',
                     index=False)
         print('Notice: your file was too large to be converted to Excel format, and has'
