@@ -1,6 +1,6 @@
 import pandas as pd
 
-a = 'h08b.xls'
+a = 'h08.xls'
 b = 'Health Insurance Coverage Type by Family Income and Age 2008-2017.csv'
 c = 'state-divorce-rates-90-95-99-17.xlsx'
 d = 'state-marriage-rates-90-95-99-17.xlsx'
@@ -33,9 +33,10 @@ def excel(f, sr, sf, na, ic, head):
 
 def merger(f, sr):
     y = pd.read_csv('data/{0}'.format(f), skiprows=sr, error_bad_lines=False)
-    z = pd.read_csv('data/{0} (1).csv'.format(f.split('.')[0]), skiprows=sr, error_bad_lines=False)
+    z = pd.read_csv('data/{0} (1).csv'.format(f.split('.')[0]), skiprows=sr,
+                    skipfooter=2, error_bad_lines=False, engine='python')
     merged = y.append(z, sort=True)
-    merged.to_csv('data/merged_{0}'.format(f))
+    merged.to_csv('data/merged_{0}'.format(f), index_label=False)
     return 'merged_{0}'.format(f)
 
 
@@ -49,8 +50,8 @@ def cleaner(f, filenames):
         head = [int(x) for x in input('Enter which column(s) will be used for the header'
                                       ' (separate with only spaces, NOT commas): ').split()]
     elif f == a:
-        sr = 4
-        head = [0, 1]
+        sr = 3
+        head = [0, 1, 2]
         sf = 1
         ic = 0
         na = 'null'
@@ -81,7 +82,7 @@ def cleaner(f, filenames):
     elif f == h:
         sr = 3
         head = 0
-        sf = 2
+        sf = 0
         ic = 0
         na = 'null'
         f = merger(f, sr)
@@ -112,11 +113,15 @@ def cleaner(f, filenames):
     data = data.reset_index()
 
     if f == a:
-        data.rename(columns={'level_0': 'State',
-                             data.columns[1]: 'Year',
-                             'level_2': 'Income',
-                             0: 'USD$'},
+        data.rename(columns={data.columns[0]: 'State',
+                             data.columns[1]: 'Currency',
+                             data.columns[2]: 'Year',
+                             data.columns[3]: 'Median Income/Standard Error',
+                             data.columns[4]: 'USD$'},
                     inplace=True)
+        for i, row in data.iterrows():
+            data.at[i, 'Year'] = str(data.at[i, 'Year']).split('(')[0]
+
     elif f == e:
         data.rename(columns={data.columns[0]: 'Years',
                              data.columns[1]: 'Type of residence in the United States',
