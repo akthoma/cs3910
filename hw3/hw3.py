@@ -170,6 +170,7 @@ def cleaner(f, filenames):
         for i, row in data.iterrows():
             data.at[i, 'Year'] = str(data.at[i, 'Year']).split('(')[0]
 
+    # Drops unnecessary first column of file b and g
     elif f == b or f == g:
         data.drop(data.columns[0], axis=1, inplace=True)
 
