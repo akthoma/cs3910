@@ -183,7 +183,7 @@ def cleaner(f, filenames):
     elif f == d:
         data.rename(columns={data.columns[0]: 'State',
                              data.columns[1]: 'Year',
-                             data.columns[2]: 'Divorces per 1000'},
+                             data.columns[2]: 'Marriages per 1000'},
                     inplace=True)
 
     elif f == e:
