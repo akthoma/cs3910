@@ -6,24 +6,19 @@ pd.options.mode.chained_assignment = None
 # read in the data to pandas dataframe
 mar = pd.read_csv('hw5data/MarriageClean.csv',
                   header=0,
-                  na_values='null',
+                  na_values='Null',
                   index_col=None)
 
 div = pd.read_csv('hw5data/DivorceClean.csv',
                   header=0,
-                  na_values='null',
+                  na_values='Null',
                   index_col=None)
 
 df = mar.merge(div)
 
 df.to_csv(path_or_buf='hw5data/mergedhw5_1.csv',
-          na_rep='null',
+          na_rep='Null',
           index=False)
-
-df = pd.read_csv('hw5data/mergedhw5_1.csv',
-                 header=0,
-                 na_values='null',
-                 index_col=None)
 
 # covert null values into a list
 null_list = df.index[df.isnull().any(axis=1) == True].tolist()
