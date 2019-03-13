@@ -1,0 +1,1072 @@
+﻿State,Year,divorce_rate
+Alabama,2017,3.660497663
+Alabama,2016,3.778709929
+Alabama,2015,3.853690251
+Alabama,2014,3.785022282
+Alabama,2013,3.68329002
+Alabama,2012,3.6
+Alabama,2011,4.3
+Alabama,2010,4.4
+Alabama,2009,4.4
+Alabama,2008,4.3
+Alabama,2007,4.5
+Alabama,2006,4.9
+Alabama,2005,4.9
+Alabama,2004,4.9
+Alabama,2003,5.2
+Alabama,2002,5.4
+Alabama,2001,5.4
+Alabama,2000,5.5
+Alabama,1999,5.7
+Alabama,1995,6
+Alabama,1990,6.1
+Alaska,2017,3.580721686
+Alaska,2016,3.946655452
+Alaska,2015,4.138498873
+Alaska,2014,3.951233284
+Alaska,2013,4.461783734
+Alaska,2012,4.5
+Alaska,2011,4.8
+Alaska,2010,4.7
+Alaska,2009,4.4
+Alaska,2008,4.4
+Alaska,2007,4.3
+Alaska,2006,4.2
+Alaska,2005,4.3
+Alaska,2004,4.3
+Alaska,2003,3.9
+Alaska,2002,4.6
+Alaska,2001,4.3
+Alaska,2000,3.9
+Alaska,1999,5
+Alaska,1995,5
+Alaska,1990,5.5
+Arizona,2017,3.479199062
+Arizona,2016,3.352007215
+Arizona,2015,3.578466227
+Arizona,2014,3.892009548
+Arizona,2013,3.929150047
+Arizona,2012,4.3
+Arizona,2011,3.9
+Arizona,2010,3.5
+Arizona,2009,3.6
+Arizona,2008,3.8
+Arizona,2007,4
+Arizona,2006,4
+Arizona,2005,4.2
+Arizona,2004,4.3
+Arizona,2003,4.4
+Arizona,2002,4.8
+Arizona,2001,4
+Arizona,2000,4.6
+Arizona,1999,4.6
+Arizona,1995,6.2
+Arizona,1990,6.9
+Arkansas,2017,3.719694476
+Arkansas,2016,3.926380943
+Arkansas,2015,4.842515825
+Arkansas,2014,4.845317626
+Arkansas,2013,5.011872447
+Arkansas,2012,5.3
+Arkansas,2011,5.3
+Arkansas,2010,5.7
+Arkansas,2009,5.7
+Arkansas,2008,5.5
+Arkansas,2007,5.9
+Arkansas,2006,5.8
+Arkansas,2005,6
+Arkansas,2004,6.1
+Arkansas,2003,6
+Arkansas,2002,6.2
+Arkansas,2001,6.2
+Arkansas,2000,6.4
+Arkansas,1999,6.2
+Arkansas,1995,6.3
+Arkansas,1990,6.9
+California,2017,Null
+California,2016,Null
+California,2015,Null
+California,2014,Null
+California,2013,Null
+California,2012,Null
+California,2011,Null
+California,2010,Null
+California,2009,Null
+California,2008,Null
+California,2007,Null
+California,2006,Null
+California,2005,Null
+California,2004,Null
+California,2003,Null
+California,2002,Null
+California,2001,Null
+California,2000,Null
+California,1999,Null
+California,1995,Null
+California,1990,4.3
+Colorado,2017,3.186286662
+Colorado,2016,3.566255666
+Colorado,2015,3.725047988
+Colorado,2014,3.866601592
+Colorado,2013,4.073558277
+Colorado,2012,4.3
+Colorado,2011,4.4
+Colorado,2010,4.3
+Colorado,2009,4.3
+Colorado,2008,4.3
+Colorado,2007,4.4
+Colorado,2006,4.5
+Colorado,2005,4.4
+Colorado,2004,4.4
+Colorado,2003,4.3
+Colorado,2002,4.7
+Colorado,2001,4.7
+Colorado,2000,4.7
+Colorado,1999,4.8
+Colorado,1995,Null
+Colorado,1990,5.5
+Connecticut,2017,2.870532838
+Connecticut,2016,3.16850331
+Connecticut,2015,3.128197331
+Connecticut,2014,2.577657098
+Connecticut,2013,2.761618206
+Connecticut,2012,2.7
+Connecticut,2011,3.1
+Connecticut,2010,2.9
+Connecticut,2009,3
+Connecticut,2008,3.4
+Connecticut,2007,3.2
+Connecticut,2006,3.1
+Connecticut,2005,3
+Connecticut,2004,3.1
+Connecticut,2003,3.2
+Connecticut,2002,3.3
+Connecticut,2001,3.2
+Connecticut,2000,3.3
+Connecticut,1999,3
+Connecticut,1995,2.9
+Connecticut,1990,3.2
+Delaware,2017,2.964844964
+Delaware,2016,3.079621664
+Delaware,2015,3.093239063
+Delaware,2014,3.256684915
+Delaware,2013,3.383206463
+Delaware,2012,3.5
+Delaware,2011,3.6
+Delaware,2010,3.5
+Delaware,2009,3.6
+Delaware,2008,3.5
+Delaware,2007,3.7
+Delaware,2006,3.8
+Delaware,2005,3.8
+Delaware,2004,3.7
+Delaware,2003,3.9
+Delaware,2002,3.5
+Delaware,2001,3.9
+Delaware,2000,3.9
+Delaware,1999,4.5
+Delaware,1995,5
+Delaware,1990,4.4
+District of Columbia,2017,2.477045183
+District of Columbia,2016,2.73940426
+District of Columbia,2015,2.83237235
+District of Columbia,2014,2.577049688
+District of Columbia,2013,2.838584328
+District of Columbia,2012,2.9
+District of Columbia,2011,2.9
+District of Columbia,2010,2.8
+District of Columbia,2009,2.7
+District of Columbia,2008,2.7
+District of Columbia,2007,1.7
+District of Columbia,2006,2.1
+District of Columbia,2005,2
+District of Columbia,2004,1.8
+District of Columbia,2003,2
+District of Columbia,2002,2.4
+District of Columbia,2001,2.9
+District of Columbia,2000,3.2
+District of Columbia,1999,3.6
+District of Columbia,1995,3.2
+District of Columbia,1990,4.5
+Florida,2017,3.612111855
+Florida,2016,3.865675479
+Florida,2015,3.95653514
+Florida,2014,3.970181514
+Florida,2013,4.110651843
+Florida,2012,4.2
+Florida,2011,4.5
+Florida,2010,4.4
+Florida,2009,4.2
+Florida,2008,4.3
+Florida,2007,4.6
+Florida,2006,4.7
+Florida,2005,4.6
+Florida,2004,4.7
+Florida,2003,5
+Florida,2002,5.1
+Florida,2001,5.2
+Florida,2000,5.1
+Florida,1999,5.1
+Florida,1995,5.5
+Florida,1990,6.3
+Georgia,2017,3.496277199
+Georgia,2016,Null
+Georgia,2015,Null
+Georgia,2014,Null
+Georgia,2013,Null
+Georgia,2012,Null
+Georgia,2011,Null
+Georgia,2010,Null
+Georgia,2009,Null
+Georgia,2008,Null
+Georgia,2007,Null
+Georgia,2006,Null
+Georgia,2005,Null
+Georgia,2004,Null
+Georgia,2003,3.2
+Georgia,2002,2.5
+Georgia,2001,3.1
+Georgia,2000,3.3
+Georgia,1999,4.1
+Georgia,1995,5.1
+Georgia,1990,5.5
+Hawaii,2017,Null
+Hawaii,2016,Null
+Hawaii,2015,Null
+Hawaii,2014,Null
+Hawaii,2013,Null
+Hawaii,2012,Null
+Hawaii,2011,Null
+Hawaii,2010,Null
+Hawaii,2009,Null
+Hawaii,2008,Null
+Hawaii,2007,Null
+Hawaii,2006,Null
+Hawaii,2005,Null
+Hawaii,2004,Null
+Hawaii,2003,Null
+Hawaii,2002,3.7
+Hawaii,2001,4
+Hawaii,2000,3.9
+Hawaii,1999,3.8
+Hawaii,1995,4.6
+Hawaii,1990,4.6
+Idaho,2017,3.884811552
+Idaho,2016,4.034126692
+Idaho,2015,4.125250011
+Idaho,2014,4.248487578
+Idaho,2013,4.495898609
+Idaho,2012,4.7
+Idaho,2011,4.9
+Idaho,2010,5.2
+Idaho,2009,5
+Idaho,2008,4.8
+Idaho,2007,4.9
+Idaho,2006,5
+Idaho,2005,5
+Idaho,2004,5
+Idaho,2003,5.2
+Idaho,2002,5.3
+Idaho,2001,5.3
+Idaho,2000,5.5
+Idaho,1999,5.4
+Idaho,1995,5.8
+Idaho,1990,6.5
+Illinois,2017,1.870798076
+Illinois,2016,2.2
+Illinois,2015,2.196579392
+Illinois,2014,2.213332008
+Illinois,2013,2.270508732
+Illinois,2012,2.4
+Illinois,2011,2.6
+Illinois,2010,2.6
+Illinois,2009,2.5
+Illinois,2008,2.5
+Illinois,2007,2.6
+Illinois,2006,2.5
+Illinois,2005,2.6
+Illinois,2004,2.6
+Illinois,2003,2.8
+Illinois,2002,2.9
+Illinois,2001,3.2
+Illinois,2000,3.2
+Illinois,1999,3.3
+Illinois,1995,3.2
+Illinois,1990,3.8
+Indiana,2017,Null
+Indiana,2016,Null
+Indiana,2015,Null
+Indiana,2014,Null
+Indiana,2013,Null
+Indiana,2012,Null
+Indiana,2011,Null
+Indiana,2010,Null
+Indiana,2009,Null
+Indiana,2008,Null
+Indiana,2007,Null
+Indiana,2006,Null
+Indiana,2005,Null
+Indiana,2004,Null
+Indiana,2003,Null
+Indiana,2002,Null
+Indiana,2001,Null
+Indiana,2000,Null
+Indiana,1999,Null
+Indiana,1995,Null
+Indiana,1990,Null
+Iowa,2017,1.963943922
+Iowa,2016,1.25466832
+Iowa,2015,1.211306768
+Iowa,2014,1.505249546
+Iowa,2013,1.865768233
+Iowa,2012,2.2
+Iowa,2011,2.4
+Iowa,2010,2.4
+Iowa,2009,2.4
+Iowa,2008,2.6
+Iowa,2007,2.5
+Iowa,2006,2.7
+Iowa,2005,2.7
+Iowa,2004,2.8
+Iowa,2003,2.8
+Iowa,2002,3.1
+Iowa,2001,3.3
+Iowa,2000,3.3
+Iowa,1999,3.3
+Iowa,1995,3.7
+Iowa,1990,3.9
+Kansas,2017,2.379233558
+Kansas,2016,2.692542778
+Kansas,2015,2.821089551
+Kansas,2014,2.967953744
+Kansas,2013,2.972055217
+Kansas,2012,3.4
+Kansas,2011,3.9
+Kansas,2010,3.7
+Kansas,2009,3.6
+Kansas,2008,3.5
+Kansas,2007,3.4
+Kansas,2006,3.1
+Kansas,2005,3.1
+Kansas,2004,3.3
+Kansas,2003,3.3
+Kansas,2002,3.6
+Kansas,2001,3.4
+Kansas,2000,3.6
+Kansas,1999,3.4
+Kansas,1995,4.1
+Kansas,1990,5
+Kentucky,2017,3.726604327
+Kentucky,2016,3.788167341
+Kentucky,2015,3.702295907
+Kentucky,2014,3.849136856
+Kentucky,2013,4.162632997
+Kentucky,2012,4.1
+Kentucky,2011,4.4
+Kentucky,2010,4.5
+Kentucky,2009,4.6
+Kentucky,2008,4.6
+Kentucky,2007,4.6
+Kentucky,2006,5
+Kentucky,2005,4.6
+Kentucky,2004,4.9
+Kentucky,2003,5
+Kentucky,2002,5.2
+Kentucky,2001,5.1
+Kentucky,2000,5.1
+Kentucky,1999,5.5
+Kentucky,1995,5.9
+Kentucky,1990,5.8
+Louisiana,2017,1.923219378
+Louisiana,2016,2.042862519
+Louisiana,2015,2.772589432
+Louisiana,2014,2.250479388
+Louisiana,2013,2.170806426
+Louisiana,2012,Null
+Louisiana,2011,Null
+Louisiana,2010,Null
+Louisiana,2009,Null
+Louisiana,2008,Null
+Louisiana,2007,Null
+Louisiana,2006,Null
+Louisiana,2005,Null
+Louisiana,2004,Null
+Louisiana,2003,3.4
+Louisiana,2002,3.3
+Louisiana,2001,Null
+Louisiana,2000,Null
+Louisiana,1999,Null
+Louisiana,1995,Null
+Louisiana,1990,Null
+Maine,2017,3.226272488
+Maine,2016,3.428518212
+Maine,2015,3.428047856
+Maine,2014,3.581715209
+Maine,2013,3.969729775
+Maine,2012,3.9
+Maine,2011,4.2
+Maine,2010,4.2
+Maine,2009,4.1
+Maine,2008,4.2
+Maine,2007,4.2
+Maine,2006,4.2
+Maine,2005,4.1
+Maine,2004,4.3
+Maine,2003,4.4
+Maine,2002,4.6
+Maine,2001,4.7
+Maine,2000,5
+Maine,1999,5.1
+Maine,1995,4.4
+Maine,1990,4.3
+Maryland,2017,2.542721404
+Maryland,2016,2.686967906
+Maryland,2015,2.595564299
+Maryland,2014,2.541828226
+Maryland,2013,2.533558988
+Maryland,2012,2.8
+Maryland,2011,2.9
+Maryland,2010,2.8
+Maryland,2009,2.8
+Maryland,2008,2.8
+Maryland,2007,2.9
+Maryland,2006,3
+Maryland,2005,3.1
+Maryland,2004,3.2
+Maryland,2003,3.2
+Maryland,2002,3.4
+Maryland,2001,3
+Maryland,2000,3.3
+Maryland,1999,3.2
+Maryland,1995,3
+Maryland,1990,3.4
+Massachusetts,2017,2.165800585
+Massachusetts,2016,2.290150635
+Massachusetts,2015,2.552976545
+Massachusetts,2014,2.680786692
+Massachusetts,2013,2.626693904
+Massachusetts,2012,2.7
+Massachusetts,2011,2.7
+Massachusetts,2010,2.5
+Massachusetts,2009,2.2
+Massachusetts,2008,2
+Massachusetts,2007,2.3
+Massachusetts,2006,2.3
+Massachusetts,2005,2.2
+Massachusetts,2004,2.2
+Massachusetts,2003,2.5
+Massachusetts,2002,2.5
+Massachusetts,2001,2.4
+Massachusetts,2000,2.5
+Massachusetts,1999,2.5
+Massachusetts,1995,2.2
+Massachusetts,1990,2.8
+Michigan,2017,2.84893736
+Michigan,2016,2.908151446
+Michigan,2015,3.04568088
+Michigan,2014,2.997817228
+Michigan,2013,3.25992646
+Michigan,2012,3.3
+Michigan,2011,3.4
+Michigan,2010,3.5
+Michigan,2009,3.3
+Michigan,2008,3.4
+Michigan,2007,3.4
+Michigan,2006,3.5
+Michigan,2005,3.4
+Michigan,2004,3.5
+Michigan,2003,3.5
+Michigan,2002,3.8
+Michigan,2001,3.9
+Michigan,2000,3.9
+Michigan,1999,3.8
+Michigan,1995,4.1
+Michigan,1990,4.3
+Minnesota,2017,Null
+Minnesota,2016,Null
+Minnesota,2015,Null
+Minnesota,2014,Null
+Minnesota,2013,Null
+Minnesota,2012,Null
+Minnesota,2011,Null
+Minnesota,2010,Null
+Minnesota,2009,Null
+Minnesota,2008,Null
+Minnesota,2007,Null
+Minnesota,2006,Null
+Minnesota,2005,Null
+Minnesota,2004,2.8
+Minnesota,2003,3
+Minnesota,2002,3.1
+Minnesota,2001,3.2
+Minnesota,2000,3.2
+Minnesota,1999,3.2
+Minnesota,1995,3.4
+Minnesota,1990,3.5
+Mississippi,2017,2.900371971
+Mississippi,2016,3.204709967
+Mississippi,2015,3.370279979
+Mississippi,2014,3.37132053
+Mississippi,2013,3.587180693
+Mississippi,2012,4
+Mississippi,2011,4
+Mississippi,2010,4.3
+Mississippi,2009,4.1
+Mississippi,2008,4.3
+Mississippi,2007,4.5
+Mississippi,2006,4.8
+Mississippi,2005,4.4
+Mississippi,2004,4.5
+Mississippi,2003,4.6
+Mississippi,2002,4.9
+Mississippi,2001,5
+Mississippi,2000,5
+Mississippi,1999,5
+Mississippi,1995,4.8
+Mississippi,1990,5.5
+Missouri,2017,3.138447627
+Missouri,2016,3.281962908
+Missouri,2015,3.177357359
+Missouri,2014,3.278091572
+Missouri,2013,3.422140108
+Missouri,2012,3.7
+Missouri,2011,3.9
+Missouri,2010,3.9
+Missouri,2009,3.8
+Missouri,2008,3.7
+Missouri,2007,3.8
+Missouri,2006,3.8
+Missouri,2005,3.6
+Missouri,2004,3.8
+Missouri,2003,3.9
+Missouri,2002,4
+Missouri,2001,4.2
+Missouri,2000,4.5
+Missouri,1999,4.4
+Missouri,1995,5
+Missouri,1990,5.1
+Montana,2017,3.109968367
+Montana,2016,3.104976403
+Montana,2015,3.425144901
+Montana,2014,3.447706528
+Montana,2013,3.388611704
+Montana,2012,3.9
+Montana,2011,4
+Montana,2010,3.9
+Montana,2009,4
+Montana,2008,4.1
+Montana,2007,4
+Montana,2006,4.4
+Montana,2005,4.5
+Montana,2004,3.8
+Montana,2003,3.9
+Montana,2002,4
+Montana,2001,4.2
+Montana,2000,4.2
+Montana,1999,2.8
+Montana,1995,4.8
+Montana,1990,5.1
+Nebraska,2017,3.024359452
+Nebraska,2016,3.136149033
+Nebraska,2015,3.177951577
+Nebraska,2014,3.05447294
+Nebraska,2013,3.27853762
+Nebraska,2012,3.4
+Nebraska,2011,3.5
+Nebraska,2010,3.6
+Nebraska,2009,3.4
+Nebraska,2008,3.3
+Nebraska,2007,3.4
+Nebraska,2006,3.4
+Nebraska,2005,3.3
+Nebraska,2004,3.4
+Nebraska,2003,3.4
+Nebraska,2002,3.6
+Nebraska,2001,3.6
+Nebraska,2000,3.7
+Nebraska,1999,3.7
+Nebraska,1995,3.8
+Nebraska,1990,4
+Nevada,2017,4.459581747
+Nevada,2016,4.294473102
+Nevada,2015,4.636706568
+Nevada,2014,5.330212155
+Nevada,2013,5.121614144
+Nevada,2012,5.5
+Nevada,2011,5.6
+Nevada,2010,5.9
+Nevada,2009,6.6
+Nevada,2008,6.4
+Nevada,2007,6.4
+Nevada,2006,6.7
+Nevada,2005,7.4
+Nevada,2004,6.3
+Nevada,2003,7.3
+Nevada,2002,7.1
+Nevada,2001,6.3
+Nevada,2000,9.9
+Nevada,1999,7.8
+Nevada,1995,7.8
+Nevada,1990,11.4
+New Hampshire,2017,3.112910012
+New Hampshire,2016,3.375050101
+New Hampshire,2015,3.328553563
+New Hampshire,2014,3.54307653
+New Hampshire,2013,3.726598255
+New Hampshire,2012,3.6
+New Hampshire,2011,3.8
+New Hampshire,2010,3.8
+New Hampshire,2009,3.7
+New Hampshire,2008,3.9
+New Hampshire,2007,3.8
+New Hampshire,2006,4.1
+New Hampshire,2005,3.9
+New Hampshire,2004,4
+New Hampshire,2003,4.1
+New Hampshire,2002,4.3
+New Hampshire,2001,4.4
+New Hampshire,2000,4.8
+New Hampshire,1999,5.1
+New Hampshire,1995,4.2
+New Hampshire,1990,4.7
+New Jersey,2017,2.600813445
+New Jersey,2016,2.668464724
+New Jersey,2015,2.81792402
+New Jersey,2014,2.778755171
+New Jersey,2013,2.78526304
+New Jersey,2012,2.8
+New Jersey,2011,2.9
+New Jersey,2010,3
+New Jersey,2009,2.7
+New Jersey,2008,3
+New Jersey,2007,3
+New Jersey,2006,3
+New Jersey,2005,2.9
+New Jersey,2004,3
+New Jersey,2003,3.2
+New Jersey,2002,3.4
+New Jersey,2001,3.4
+New Jersey,2000,3
+New Jersey,1999,3
+New Jersey,1995,3
+New Jersey,1990,3
+New Mexico,2017,Null
+New Mexico,2016,Null
+New Mexico,2015,3.288077506
+New Mexico,2014,3.551543653
+New Mexico,2013,3.437416528
+New Mexico,2012,3
+New Mexico,2011,3.3
+New Mexico,2010,4
+New Mexico,2009,3.9
+New Mexico,2008,4.1
+New Mexico,2007,4.2
+New Mexico,2006,4.3
+New Mexico,2005,4.6
+New Mexico,2004,4.6
+New Mexico,2003,5.2
+New Mexico,2002,4.4
+New Mexico,2001,4.9
+New Mexico,2000,5.1
+New Mexico,1999,4.6
+New Mexico,1995,6.6
+New Mexico,1990,4.9
+New York,2017,2.676302693
+New York,2016,2.681044577
+New York,2015,2.70749474
+New York,2014,2.843986347
+New York,2013,2.735466521
+New York,2012,2.9
+New York,2011,2.9
+New York,2010,2.9
+New York,2009,2.6
+New York,2008,2.8
+New York,2007,2.9
+New York,2006,3.1
+New York,2005,2.9
+New York,2004,3
+New York,2003,3.2
+New York,2002,3.4
+New York,2001,3.5
+New York,2000,3
+New York,1999,3.3
+New York,1995,3
+New York,1990,3.2
+North Carolina,2017,3.109967577
+North Carolina,2016,3.248318581
+North Carolina,2015,3.082307109
+North Carolina,2014,3.401963241
+North Carolina,2013,3.429203315
+North Carolina,2012,3.7
+North Carolina,2011,3.7
+North Carolina,2010,3.8
+North Carolina,2009,3.8
+North Carolina,2008,3.8
+North Carolina,2007,4
+North Carolina,2006,4
+North Carolina,2005,4.1
+North Carolina,2004,4.2
+North Carolina,2003,4.2
+North Carolina,2002,4.4
+North Carolina,2001,4.6
+North Carolina,2000,4.5
+North Carolina,1999,4.6
+North Carolina,1995,5
+North Carolina,1990,5.1
+North Dakota,2017,2.486123117
+North Dakota,2016,2.589873765
+North Dakota,2015,2.839111301
+North Dakota,2014,2.83035963
+North Dakota,2013,2.943075203
+North Dakota,2012,3.1
+North Dakota,2011,2.7
+North Dakota,2010,3.1
+North Dakota,2009,2.8
+North Dakota,2008,2.9
+North Dakota,2007,2.9
+North Dakota,2006,3
+North Dakota,2005,2.9
+North Dakota,2004,3.1
+North Dakota,2003,2.9
+North Dakota,2002,2.9
+North Dakota,2001,2.9
+North Dakota,2000,3.4
+North Dakota,1999,4.4
+North Dakota,1995,3.4
+North Dakota,1990,3.6
+Ohio,2017,2.922647119
+Ohio,2016,3.029866528
+Ohio,2015,3.071359753
+Ohio,2014,3.174787175
+Ohio,2013,3.294843368
+Ohio,2012,3.4
+Ohio,2011,3.4
+Ohio,2010,3.4
+Ohio,2009,3.3
+Ohio,2008,3.3
+Ohio,2007,3.4
+Ohio,2006,3.5
+Ohio,2005,3.5
+Ohio,2004,3.6
+Ohio,2003,3.7
+Ohio,2002,4
+Ohio,2001,4
+Ohio,2000,4.2
+Ohio,1999,3.9
+Ohio,1995,4.3
+Ohio,1990,4.7
+Oklahoma,2017,4.070860757
+Oklahoma,2016,4.369754924
+Oklahoma,2015,4.374973475
+Oklahoma,2014,4.538877905
+Oklahoma,2013,4.49777799
+Oklahoma,2012,4.8
+Oklahoma,2011,5.2
+Oklahoma,2010,5.2
+Oklahoma,2009,4.8
+Oklahoma,2008,5.3
+Oklahoma,2007,5.2
+Oklahoma,2006,5.3
+Oklahoma,2005,5.6
+Oklahoma,2004,4.9
+Oklahoma,2003,Null
+Oklahoma,2002,Null
+Oklahoma,2001,Null
+Oklahoma,2000,Null
+Oklahoma,1999,Null
+Oklahoma,1995,6.6
+Oklahoma,1990,7.7
+Oregon,2017,3.381066222
+Oregon,2016,3.35705814
+Oregon,2015,3.422953271
+Oregon,2014,3.425234602
+Oregon,2013,3.619024113
+Oregon,2012,3.8
+Oregon,2011,3.8
+Oregon,2010,4
+Oregon,2009,3.9
+Oregon,2008,3.9
+Oregon,2007,3.9
+Oregon,2006,4
+Oregon,2005,4.2
+Oregon,2004,4.1
+Oregon,2003,4.3
+Oregon,2002,4.6
+Oregon,2001,4.8
+Oregon,2000,4.8
+Oregon,1999,4.6
+Oregon,1995,4.7
+Oregon,1990,5.5
+Pennsylvania,2017,2.5595959
+Pennsylvania,2016,2.639893675
+Pennsylvania,2015,2.62448679
+Pennsylvania,2014,2.662817195
+Pennsylvania,2013,2.679781844
+Pennsylvania,2012,2.8
+Pennsylvania,2011,2.8
+Pennsylvania,2010,2.7
+Pennsylvania,2009,2.7
+Pennsylvania,2008,2.7
+Pennsylvania,2007,2.8
+Pennsylvania,2006,2.8
+Pennsylvania,2005,2.3
+Pennsylvania,2004,3
+Pennsylvania,2003,3.1
+Pennsylvania,2002,3.1
+Pennsylvania,2001,3.1
+Pennsylvania,2000,3.1
+Pennsylvania,1999,3.1
+Pennsylvania,1995,3.2
+Pennsylvania,1990,3.3
+Rhode Island,2017,2.888719649
+Rhode Island,2016,2.84165668
+Rhode Island,2015,2.993473433
+Rhode Island,2014,2.841240252
+Rhode Island,2013,3.14594902
+Rhode Island,2012,3.2
+Rhode Island,2011,3.2
+Rhode Island,2010,3.2
+Rhode Island,2009,3
+Rhode Island,2008,2.7
+Rhode Island,2007,2.8
+Rhode Island,2006,3
+Rhode Island,2005,3
+Rhode Island,2004,3.1
+Rhode Island,2003,3.1
+Rhode Island,2002,3.2
+Rhode Island,2001,3.2
+Rhode Island,2000,2.9
+Rhode Island,1999,2.7
+Rhode Island,1995,3.6
+Rhode Island,1990,3.7
+South Carolina,2017,2.617841166
+South Carolina,2016,2.52019756
+South Carolina,2015,2.773610101
+South Carolina,2014,2.925618761
+South Carolina,2013,3.188379755
+South Carolina,2012,3.2
+South Carolina,2011,3.2
+South Carolina,2010,3.1
+South Carolina,2009,3
+South Carolina,2008,2.8
+South Carolina,2007,3
+South Carolina,2006,2.9
+South Carolina,2005,2.9
+South Carolina,2004,3.2
+South Carolina,2003,3.3
+South Carolina,2002,3.4
+South Carolina,2001,3.6
+South Carolina,2000,3.8
+South Carolina,1999,3.8
+South Carolina,1995,3.9
+South Carolina,1990,4.5
+South Dakota,2017,2.694137749
+South Dakota,2016,2.784665621
+South Dakota,2015,2.62327469
+South Dakota,2014,2.782547543
+South Dakota,2013,2.89983039
+South Dakota,2012,3
+South Dakota,2011,3.3
+South Dakota,2010,3.4
+South Dakota,2009,3.3
+South Dakota,2008,3.1
+South Dakota,2007,3.1
+South Dakota,2006,3.2
+South Dakota,2005,2.8
+South Dakota,2004,3.1
+South Dakota,2003,3
+South Dakota,2002,3.3
+South Dakota,2001,3.3
+South Dakota,2000,3.5
+South Dakota,1999,3.7
+South Dakota,1995,3.9
+South Dakota,1990,3.7
+Tennessee,2017,3.546464673
+Tennessee,2016,3.764136184
+Tennessee,2015,3.694832613
+Tennessee,2014,3.797169552
+Tennessee,2013,4.132249216
+Tennessee,2012,4.2
+Tennessee,2011,4.3
+Tennessee,2010,4.2
+Tennessee,2009,3.9
+Tennessee,2008,4.2
+Tennessee,2007,4.3
+Tennessee,2006,4.6
+Tennessee,2005,4.6
+Tennessee,2004,4.9
+Tennessee,2003,5
+Tennessee,2002,5.1
+Tennessee,2001,5.2
+Tennessee,2000,5.9
+Tennessee,1999,5.8
+Tennessee,1995,6.2
+Tennessee,1990,6.5
+Texas,2017,2.249599323
+Texas,2016,2.6
+Texas,2015,2.589198909
+Texas,2014,2.700045012
+Texas,2013,2.889762639
+Texas,2012,3
+Texas,2011,3.2
+Texas,2010,3.3
+Texas,2009,3.3
+Texas,2008,3.3
+Texas,2007,3.3
+Texas,2006,3.4
+Texas,2005,3.3
+Texas,2004,3.6
+Texas,2003,3.8
+Texas,2002,3.9
+Texas,2001,4
+Texas,2000,4
+Texas,1999,3.8
+Texas,1995,5.2
+Texas,1990,5.5
+Utah,2017,3.440223893
+Utah,2016,3.587748757
+Utah,2015,3.556838486
+Utah,2014,3.07825405
+Utah,2013,3.095965627
+Utah,2012,3.3
+Utah,2011,3.7
+Utah,2010,3.7
+Utah,2009,3.7
+Utah,2008,3.8
+Utah,2007,3.7
+Utah,2006,3.9
+Utah,2005,4.1
+Utah,2004,4.1
+Utah,2003,4
+Utah,2002,4.1
+Utah,2001,4.2
+Utah,2000,4.3
+Utah,1999,4
+Utah,1995,4.4
+Utah,1990,5.1
+Vermont,2017,2.921477671
+Vermont,2016,3.098012469
+Vermont,2015,3.078068245
+Vermont,2014,3.460152387
+Vermont,2013,3.549143833
+Vermont,2012,3.5
+Vermont,2011,3.6
+Vermont,2010,3.8
+Vermont,2009,3.5
+Vermont,2008,3.6
+Vermont,2007,3.6
+Vermont,2006,3.8
+Vermont,2005,3.6
+Vermont,2004,3.9
+Vermont,2003,4
+Vermont,2002,4.2
+Vermont,2001,4.3
+Vermont,2000,4.1
+Vermont,1999,4.4
+Vermont,1995,4.7
+Vermont,1990,4.5
+Virginia,2017,3.035766149
+Virginia,2016,3.37394767
+Virginia,2015,3.300968998
+Virginia,2014,3.481623086
+Virginia,2013,3.558905405
+Virginia,2012,3.7
+Virginia,2011,3.8
+Virginia,2010,3.8
+Virginia,2009,3.7
+Virginia,2008,3.8
+Virginia,2007,3.8
+Virginia,2006,4
+Virginia,2005,4
+Virginia,2004,3.9
+Virginia,2003,4
+Virginia,2002,4.2
+Virginia,2001,4.2
+Virginia,2000,4.3
+Virginia,1999,4.4
+Virginia,1995,4.3
+Virginia,1990,4.4
+Washington,2017,3.406950525
+Washington,2016,3.483671789
+Washington,2015,3.383097982
+Washington,2014,3.649350778
+Washington,2013,3.821467291
+Washington,2012,3.9
+Washington,2011,4.1
+Washington,2010,4.2
+Washington,2009,3.9
+Washington,2008,3.9
+Washington,2007,4
+Washington,2006,4.1
+Washington,2005,4.3
+Washington,2004,4.3
+Washington,2003,4.4
+Washington,2002,4.6
+Washington,2001,4.5
+Washington,2000,4.6
+Washington,1999,5
+Washington,1995,5.4
+Washington,1990,5.9
+West Virginia,2017,3.478798165
+West Virginia,2016,3.757300249
+West Virginia,2015,3.98020094
+West Virginia,2014,4.199800468
+West Virginia,2013,4.587165858
+West Virginia,2012,4.7
+West Virginia,2011,5.2
+West Virginia,2010,5.1
+West Virginia,2009,5.1
+West Virginia,2008,4.8
+West Virginia,2007,5.1
+West Virginia,2006,5
+West Virginia,2005,5.1
+West Virginia,2004,5
+West Virginia,2003,5.2
+West Virginia,2002,5.2
+West Virginia,2001,5.2
+West Virginia,2000,5.1
+West Virginia,1999,4.9
+West Virginia,1995,5.2
+West Virginia,1990,5.3
+Wisconsin,2017,2.433101779
+Wisconsin,2016,2.59798557
+Wisconsin,2015,2.596625357
+Wisconsin,2014,2.656852794
+Wisconsin,2013,2.775865693
+Wisconsin,2012,2.9
+Wisconsin,2011,2.9
+Wisconsin,2010,3
+Wisconsin,2009,2.9
+Wisconsin,2008,3
+Wisconsin,2007,2.9
+Wisconsin,2006,3
+Wisconsin,2005,2.9
+Wisconsin,2004,3
+Wisconsin,2003,3.1
+Wisconsin,2002,3.2
+Wisconsin,2001,3.2
+Wisconsin,2000,3.2
+Wisconsin,1999,3.2
+Wisconsin,1995,3.4
+Wisconsin,1990,3.6
+Wyoming,2017,3.961575309
+Wyoming,2016,4.203237911
+Wyoming,2015,4.149412991
+Wyoming,2014,4.603246067
+Wyoming,2013,4.259788761
+Wyoming,2012,4.4
+Wyoming,2011,4.8
+Wyoming,2010,5.1
+Wyoming,2009,5.1
+Wyoming,2008,4.9
+Wyoming,2007,4.9
+Wyoming,2006,5.1
+Wyoming,2005,5.2
+Wyoming,2004,5.2
+Wyoming,2003,5.4
+Wyoming,2002,5.4
+Wyoming,2001,5.8
+Wyoming,2000,5.8
+Wyoming,1999,5.7
+Wyoming,1995,6.6
+Wyoming,1990,6.6
