@@ -14,6 +14,9 @@ div = pd.read_csv('hw5data/DivorceClean.csv',
                   na_values='Null',
                   index_col=None)
 
+mar.columns = ['State', 'Year', 'Marriage Rate']
+div.columns = ['State', 'Year', 'Divorce Rate']
+
 df = div.merge(mar, how='outer')
 
 df.to_csv(path_or_buf='hw5data/mergedhw5_1.csv',
@@ -48,13 +51,13 @@ df = df.fillna(co_fix)
 indiana_fix = df.loc[df['State'] == 'Indiana']
 
 # drop all of the columns except for divorce rate
-indiana_fix.drop(['Marriage rate', 'Year'], axis=1, inplace=True)
+indiana_fix.drop(['Marriage Rate', 'Year'], axis=1, inplace=True)
 
 # calculate the mean divorce rate for a subset of data containing only Ohio and Illinois.
-mean_div = df['divorce_rate'].loc[df['State'].isin(['Ohio', 'Illinois'])].mean()
+mean_div = df['Divorce Rate'].loc[df['State'].isin(['Ohio', 'Illinois'])].mean()
 
 # set all of the divorce rates in indiana_fix to be the mean of both Ohio and Illinois
-indiana_fix['divorce_rate'] = mean_div
+indiana_fix['Divorce Rate'] = mean_div
 
 # fill the values to original dataframe
 df.fillna(indiana_fix, inplace=True)
@@ -65,13 +68,13 @@ df.fillna(indiana_fix, inplace=True)
 la_fix = df.loc[df['State'] == 'Louisiana']
 
 # drop all of the columns except for divorce rate
-la_fix.drop(['Marriage rate', 'Year'], axis=1, inplace=True)
+la_fix.drop(['Marriage Rate', 'Year'], axis=1, inplace=True)
 
 # calculate the mean divorce rate for a subset of data containing only Ohio and Iowa.
-mean_div = df['divorce_rate'].loc[df['State'].isin(['Ohio', 'Iowa'])].mean()
+mean_div = df['Divorce Rate'].loc[df['State'].isin(['Ohio', 'Iowa'])].mean()
 
 # set all of the divorce rates in indiana_fix to be the mean of both Ohio and Iowa
-la_fix['divorce_rate'] = mean_div
+la_fix['Divorce Rate'] = mean_div
 
 # fill the values to original dataframe
 df.fillna(la_fix, inplace=True)
