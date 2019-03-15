@@ -14,7 +14,7 @@ div = pd.read_csv('hw5data/DivorceClean.csv',
                   na_values='Null',
                   index_col=None)
 
-df = mar.merge(div)
+df = pd.merge(mar, div)
 
 df.to_csv(path_or_buf='hw5data/mergedhw5_1.csv',
           na_rep='Null',
