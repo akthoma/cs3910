@@ -61,7 +61,7 @@ Location = pd.get_dummies(health['Location'])
 # Sanity Check
 # print(Location.head())
 
-# Combine the seperate dataframes through concatanation
+# Combine the separate dataframes through concatenation
 health = health.merge(Location, left_index=True, right_index=True)
 # print(health.head())
 
@@ -70,7 +70,7 @@ health = health.merge(Location, left_index=True, right_index=True)
 # Sanity Check
 # print(DataType.head())
 
-# Combine the seperate dataframes through concatanation
+# Combine the separate dataframes through concatenation
 # health = health.merge(DataType, left_index=True, right_index=True)
 # print(health.head())
 
@@ -99,7 +99,7 @@ columns = ['TimeFrame', 'Percent', 'MOE', 'Number', 'Employer', 'Individual', 'I
 # Intialize Scale
 scale = pp.MinMaxScaler()
 
-# Apply our scaling functon to our dataframe
+# Apply our scaling function to our dataframe
 health[columns] = scale.fit_transform(health[columns])
 
 # Print after Scaling
