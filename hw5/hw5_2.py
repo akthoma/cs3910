@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 =================
-Homework 5.1
+Homework 5.2
 @author: huntercarver
 edits by audreytinkey
 =================
