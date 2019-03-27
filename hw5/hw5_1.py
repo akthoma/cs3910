@@ -19,14 +19,17 @@ mar = pd.read_csv('hw5data/MarriageClean.csv',
                   na_values='Null',
                   index_col=None)
 
+# read another file
 div = pd.read_csv('hw5data/DivorceClean.csv',
                   header=0,
                   na_values='Null',
                   index_col=None)
 
+# rename the columns so that they match before the merge
 mar.columns = ['State', 'Year', 'Marriage Rate']
 div.columns = ['State', 'Year', 'Divorce Rate']
 
+# merge!! keep null values, so we want to merge outer
 df = div.merge(mar, how='outer')
 
 df.to_csv(path_or_buf='hw5data/mergedhw5_1.csv',
